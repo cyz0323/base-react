@@ -1,0 +1,13 @@
+.contentBox{
+    width: 99%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* 让某个类名被模块化 使用 :local() */
+/* 让某个类名不被模块化 使用 :global() */
+:global(.test){
+    font-style: italic;
+}
