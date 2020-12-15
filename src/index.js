@@ -5,12 +5,7 @@ import MyPlug from '@/assets/js/index';
 import 'bootstrap/dist/css/bootstrap.css';
 import cssObj from '@/assets/css/main.scss'
 // 自定义组件的引入
-import Hello from '@/components/Hello';
-import ClassDemo from '@/components/ClassDemo';
 
-const a = new MyPlug();
-a.log();
-console.log(cssObj);
 
 
 ReactDOM.render(<div className={cssObj.contentBox}>
