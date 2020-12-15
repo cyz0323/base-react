@@ -1,0 +1,7 @@
+
+> fibers@5.0.0 install D:\workspaces\react\base-react\node_modules\fibers
+> node build.js || nodejs build.js
+
+
+D:\workspaces\react\base-react\node_modules\fibers>if not defined npm_config_node_gyp (node "C:\Users\pc_yang\AppData\Roaming\nvm\v10.15.3\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild --release )  else (node "C:\Users\pc_yang\AppData\Roaming\nvm\v10.15.3\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild --release ) 
+终止批处理操作吗(Y/N)? 
