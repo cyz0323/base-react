@@ -3,7 +3,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');// 导入在内存中�
 
 // 创建实例
 const htmlPlugin  = new HtmlWebPackPlugin({
-    template: path.join(__dirname, './src/index.html'),
+    template: path.join(__dirname, './public/index.html'),
     filename: 'index.html' 
 });
 
@@ -21,7 +21,7 @@ module.exports = {
             { test: /\.tsx?$/, use: ['ts-loader'], exclude: /node_modules/},
             { test: /\.(css|less)$/, use: ['style-loader', 'css-loader']},
             { test: /\.ttf|woff|woff2|eot|svg$/, use: ['url-loader']},
-            { test: /\.scss$/, use: ['style-loader', 'css-loader?modules', 'sass-loader']}
+            { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader']}
         ]
     },
     resolve: {
